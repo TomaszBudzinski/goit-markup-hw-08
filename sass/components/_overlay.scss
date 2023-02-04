@@ -1,0 +1,34 @@
+.overlay {
+  background-image: url(https://s3-alpha-sig.figma.com/img/1131/4362/dd953143a8a4d9f86ec8d71afc0e8103?Expires=1674432000&Signature=VeDTIJzFre0SHZ7-NOQ55r99hiiKdTLc7jBhQ~rHfXY-KqX7mi~SRxUILTPmUrY6-5~eokQOqlm1Rl2GkwEjBtC0XmRxpAh8dKVpIh-gGsTjHwuhqUY1YAHIujRHwTDK8fIs~GQsskzXy7yiL7Pqsz~1YjImT-7qxfVVd~gLrySN~VjocsiE9aDv5gJYng8m-JDWfqO2NP5ZKLIfQAdhRCW1-XeFZMXdoyCxnJjk5UJMvbozv~bqNVbuCF1nRlD71aZB5wwfx0gLlxMU17we1uNZ-6kOxBrerNNpuLzXxGfcdHczlpI0fJddQ0K5naWst4kMUHQcV~1CWqQvGb~aUg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  max-width: 1600px;
+  background-color: var(--background-color-menu);
+  color: var(--text-color-white);
+  font-weight: 900;
+  height: 600px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  &__text {
+    font-size: 44px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  &__button {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.overlay__button:hover,
+.overlay__button:focus {
+  background-color: var(--link-button-color);
+  color: var(--text-color-white);
+  border-color: var(--link-button-color);
+}

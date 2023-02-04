@@ -1,0 +1,27 @@
+.clients {
+  font-weight: 700;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 94px;
+  }
+  &__item {
+    fill: var(--team-social-media);
+    border: 1px solid var(--team-social-media);
+    border-radius: 4px;
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.clients__item:hover,
+.clients__item:focus {
+  fill: var(--link-button-color);
+  border-color: var(--link-button-color);
+}

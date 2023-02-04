@@ -1,0 +1,29 @@
+.advantages {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 94px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  &__paragraph {
+    color: var(--note-link-color);
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  &__box-icon {
+    background-color: var(--index-bg);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+  &__icon {
+    background-color: var(--index-bg);
+    background-size: 270px 120px;
+    margin: 25px 100px;
+    border-radius: 4px;
+  }
+}

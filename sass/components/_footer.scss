@@ -1,0 +1,112 @@
+.footer {
+  background-color: var(--background-color-menu);
+
+  &__menu {
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__address {
+    font-size: 14px;
+    font-style: normal;
+    color: var(--text-color-white);
+    margin-top: 20px;
+  }
+  &__contacts {
+    list-style: none;
+  }
+  &__contacts-list {
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
+  &__contats-item {
+    color: var(--footer-address-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+  }
+  &__space {
+    padding-bottom: 60px;
+  }
+}
+.footer__contats-item:focus,
+.footer__contats-item:hover {
+  color: var(--link-button-color);
+}
+.join {
+  color: var(--text-color-white);
+  font-weight: 700;
+  font-size: 14px;
+  padding-top: 72px;
+  padding-left: 70px;
+
+  &__social-media {
+    margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+  }
+  &__social-icon {
+    border-radius: 50%;
+    background-color: var(--footer-social-bg);
+    padding: 10px;
+    fill: var(--text-color-white);
+    margin-right: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.join__social-icon:hover,
+.join__social-icon:focus {
+  background-color: var(--link-button-color);
+}
+.newsletter {
+  color: var(--text-color-white);
+  font-weight: 700;
+  font-size: 14px;
+  padding-top: 72px;
+  padding-left: 70px;
+
+  &__form {
+    padding-top: 20px;
+    padding-left: 68px;
+  }
+  &__input {
+    width: 358px;
+    height: 50px;
+    background-color: var(--background-color-menu);
+    border: 1px solid #ffffff4d;
+    border-radius: 4px;
+    padding: 16px;
+    color: var(--text-color-white);
+  }
+  &__button {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--text-color-white);
+    background-color: var(--link-button-color);
+    border-color: var(--link-button-color);
+    margin-left: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  &__button-text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 10px;
+  }
+  &__button-icon {
+    fill: var(--text-color-white);
+  }
+}

@@ -1,0 +1,25 @@
+.logo {
+  display: block;
+  text-decoration: none;
+  font-size: 26px;
+
+  &__color {
+    color: var(--link-button-color);
+    font-weight: 700;
+  }
+  &__non-color {
+    color: var(--non-color-black);
+  }
+}
+.logo__footer {
+  text-decoration: none;
+  font-size: 26px;
+  padding-top: 60px;
+}
+.logo__color {
+  color: var(--link-button-color);
+  font-weight: 700;
+}
+.logo__white-color {
+  color: var(--text-color-white);
+}
